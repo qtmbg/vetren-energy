@@ -251,9 +251,9 @@ export default function App() {
             <FadeIn><div className="text-center mb-8"><h2 className="text-2xl font-bold text-neutral-900 dark:text-white">See the Energy Cube in Action</h2></div></FadeIn>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-          { title: 'Feature Video 1', video: '/feature-video-1.mp4' },                { title: 'Feature Video 2', video: '/feature-video-2.mp4' },
-          { title: 'Feature Video 2', video: '/feature-video-2.mp4' },
-              { title: 'Feature Video 3', video: '/feature-video-3.mp4' }].map((item, idx) => (
+                      { title: 'Feature Video 1', video: '/feature-video-1.mp4' },
+                  { title: 'Feature Video 2', video: '/feature-video-2.mp4' },
+          { title: 'Feature Video 3', video: '/feature-video-3.mp4' }].map((item, idx) => (
                 <FadeIn key={idx} delay={idx * 150}>
                   <div className="aspect-video bg-neutral-100 dark:bg-[#111111] rounded-2xl flex items-center justify-center relative group overflow-hidden border border-neutral-200 dark:border-[#222222] shadow-sm transition-all hover:-translate-y-2 cursor-pointer hover:border-[#00FF00]/50">
                                     <video 
